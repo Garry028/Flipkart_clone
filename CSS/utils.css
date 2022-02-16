@@ -1,4 +1,11 @@
-.text-center
+.main-footer
 {
-    text-align: center;
+    align-items: center;
+    background-color: #141E57;
+    color: #ffffff;
+    height: auto;
+    filter: grayscale(40%);
+    font-family: inherit;
+    font-size: 1rem;
+   
 }
