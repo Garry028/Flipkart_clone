@@ -17,6 +17,7 @@ html
     background-color: var(--main-bg-color);
     font-family: inherit;
     border-bottom: 1px solid  rgba(0,0,0,0.2);
+    
 }
 .header-nav
 {
@@ -32,9 +33,10 @@ html
 }
 .logo img
 {
-    width: 8rem;
-    padding: 0 1.2rem;
+    width: 8.1rem;
+    padding: 0 0.2rem;
 }
+
 .header-list
 {
     list-style: none;
