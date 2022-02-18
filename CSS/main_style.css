@@ -1,7 +1,29 @@
+.all_products
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.all_products p
+{
+  text-align: center;
+  font-weight: bolder;
+}
+.all_products p:hover
+{
+  cursor: pointer;
+  color:#2874f0 ;
+  text-shadow: 0px 1px ;
+
+}
 .big-image {
   width: 84.7vw;
   margin: 12px auto;
 }
+.big-image
+{
+  padding: 40px;
+}
+
 .card {
   max-width: 92vw;
   margin: auto;
@@ -20,6 +42,11 @@
   box-shadow: 0 0 100px 5px rgba(0, 0, 0, 0.2);
   padding: 10px;
 }
+.card-item img:hover
+{
+  cursor: pointer;
+  transform: scale(1.04);
+}
 .lines p {
   text-align: center;
   margin: 10px 0;
@@ -29,4 +56,10 @@
   justify-content: space-between;
   box-shadow: 0 0 100px 5px rgba(136, 136, 136, 0.1);
 
+}
+
+.main-container
+{
+    min-height: 790px;
+   
 }
