@@ -1,0 +1,35 @@
+@media screen and (max-width: 910px) {
+  .header-nav {
+    flex-direction: column;
+  }
+  .logo {
+    justify-content: center;
+    margin-right: 60px
+  }
+  .header-list_ul
+  {
+      justify-content:space-around;
+  }
+  .main-header .search
+  {
+      justify-content: center;
+      
+  }
+  #input_search
+  {
+    border-radius: 5px;
+  }
+  .button_search
+  {
+      padding:3px;
+      border-radius: 5px;
+  }
+  .search input
+  {
+      padding: 15px;
+  }
+  #login-link
+  {
+      padding: 2px 5px;
+  }
+}

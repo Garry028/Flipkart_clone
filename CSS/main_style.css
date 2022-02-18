@@ -17,11 +17,8 @@
 }
 .big-image {
   width: 84.7vw;
-  margin: 12px auto;
-}
-.big-image
-{
-  padding: 40px;
+  margin: 20px auto;
+  padding: 10px;
 }
 
 .card {
@@ -50,11 +47,13 @@
 .lines p {
   text-align: center;
   margin: 10px 0;
+  cursor: pointer;
 }
 .cards {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 0 100px 5px rgba(136, 136, 136, 0.1);
+  padding: 20px 0;
 
 }
 
