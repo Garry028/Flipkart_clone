@@ -8,7 +8,8 @@
   }
   .header-list_ul
   {
-      justify-content:space-around;
+      justify-content:space-evenly;
+      height: 2.8rem;
   }
   .main-header .search
   {
@@ -28,8 +29,46 @@
   {
       padding: 15px;
   }
+  .search
+  {
+    margin-bottom: 10px;
+  }
   #login-link
   {
       padding: 2px 5px;
   }
+  .big-image
+  {
+    min-width:400px ;
+  }
+  #flipkart_logo
+  {
+    width: 10rem;
+  }
+  .all_products img
+  {
+    width: 50px;
+    height: 50px;
+  }
+  .all_products p
+  {
+    font-size: 0.8rem;
+  }
+  .all_products .item1
+{
+  min-width: 50px
+}
+.card-item img
+{
+  width: 120px ;
+  height: 120px;
+}
+.card-item
+{
+  margin: 0 5PX;
+}
+.cards
+{
+  overflow: scroll;
+}
 }
